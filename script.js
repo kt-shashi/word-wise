@@ -81,13 +81,13 @@ function extractApiData(data, key) {
       for (const url of item.sourceUrls) sourceUrls.push(url);
   }
 
-  console.log("final word: ", word);
-  console.log("final pronounciation: ", pronounciation);
-  console.log("final partofspeech: ", partOfSpeech);
-  console.log("final definitions: ", definition);
-  console.log("final synonym: ", synonyms);
-  console.log("final antonym: ", antonyms);
-  console.log("final source url: ", sourceUrls);
+  // console.log("final word: ", word);
+  // console.log("final pronounciation: ", pronounciation);
+  // console.log("final partofspeech: ", partOfSpeech);
+  // console.log("final definitions: ", definition);
+  // console.log("final synonym: ", synonyms);
+  // console.log("final antonym: ", antonyms);
+  // console.log("final source url: ", sourceUrls);
 
   showApiData(
     word,
@@ -201,4 +201,9 @@ function showApiData(
   }
 
   outputBox.appendChild(urlDiv);
+
+  const footer = document.getElementById("footer");
+  // document.body.remove(footer);
+
+  document.body.appendChild(footer);
 }

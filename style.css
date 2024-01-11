@@ -3,19 +3,55 @@
   padding: 5px;
 }
 
+.heading {
+  color: #bf7266;
+  text-align: center;
+  font-weight: bold;
+}
+
 body {
-  background-color: #212121;
+  background-color: #fcedda;
   color: white;
 }
 
 .box {
-  display: inline-block;
-  background-color: #313131;
+  background-color: #bf7266;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
+  width: 50%;
+}
+
+.form,
+.form-design {
+  display: flex;
+  justify-content: center;
+}
+
+#submit,
+#key {
   border-radius: 10px;
 }
 
-.form {
+.output {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  color: #bf7266;
+  /* display: flex;
+  justify-content: center;
+  align-items: flex-end; */
+
+  /* height: 1000px; */
+  display: flex;
+  /* flex-direction: column;
+  align-items: center; */
+  justify-content: center;
+
+  position: absolute;
+  bottom: 0;
 }
