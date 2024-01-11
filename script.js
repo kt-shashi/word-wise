@@ -15,7 +15,7 @@ form.addEventListener("submit", (event) => {
         return response.json();
       })
       .then((data) => {
-        if (data.message == "Not Found") invalidUserName();
+        if (data.title == "No Definitions Found") invalidUserName();
         else extractApiData(data, key);
       })
       .catch((error) => console.log(error));
@@ -25,9 +25,7 @@ form.addEventListener("submit", (event) => {
 });
 
 function invalidUserName() {
-  alert("Unable to find the word!");
-  // document.querySelector(".result").style.visibility = "hidden";
-  // document.querySelector("#name").style.visibility = "hidden";
+  alert("Unable to find this word😔");
 }
 
 function extractApiData(data, key) {
