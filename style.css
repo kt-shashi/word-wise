@@ -1,24 +1,21 @@
-<style>
-    * {
-        margin: 5px;
-        padding: 5px;
-    }
+* {
+  margin: 5px;
+  padding: 5px;
+}
 
-    body {
-        background-color: #212121;
-        color: white;
-    }
+body {
+  background-color: #212121;
+  color: white;
+}
 
-    .box {
-        display: inline-block;
-        background-color: #313131;
-        border-radius: 10px;
-    }
+.box {
+  display: inline-block;
+  background-color: #313131;
+  border-radius: 10px;
+}
 
-    .form {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-</style>
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
